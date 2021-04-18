@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        canvas {
+            border: 1px solid #0f0b0b;
+            position: absolute;
+        }
+        
+        #button {
+            position: absolute;
+            margin: center;
+            left: 35%;
+            top: 32%;
+            padding: 10px 22px;
+            font: italic;
+            size: 28px;
+            border: 5px solid brown;
+            border-radius: 12px;
+            background-color: #FFFFE0;
+        }
+        
+        #label {
+            position: absolute;
+            margin: center;
+            left: 37%;
+            top: 28%;
+            font: italic;
+        }
+        
+        #buttonAudio {
+            position: absolute;
+            margin: center;
+            right: 22%;
+            top: 2%;
+            padding: 10px 22px;
+            font: italic;
+            size: 28px;
+            border: 5px solid rgb(128, 165, 42);
+            border-radius: 12px;
+            background-color: #FFFFE0;
+        }
+        
+        #nextLevel {
+            position: absolute;
+            font-family: "Lucida Console", "Courier New", monospace;
+            size: 28px;
+            right: 48%;
+            top: 28%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <title>flappy Birds</title>
+    <canvas id="canvas" width="1500" height="600"></canvas>
+    <div id="label"> Your score is: </div>
+    <div class='nextLevel' id="nextLevel"> next level: </div>
+    <button id='button'>Let's Start the Game</button>
+    <button class='buttonAudio' id="buttonAudio">Mute</button>
+    <script src="my.js"></script>
+
+</body>
+
+</html>
