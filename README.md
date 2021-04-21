@@ -1,3 +1,3 @@
 # FlappyBird
-Creating the game Flappy-Bird using JavaScript, Canavs , css , html.
+Flappy-Bird game using JavaScript, Canvas , CSS , HTML
 https://shakuriavi.github.io/FlappyBird/
